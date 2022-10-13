@@ -1,2 +1,2 @@
 # Comsentimento
-Projeto solicitado como parte do teste pratico do processo de seleção.
+Projeto solicitado como parte do teste prático para o processo de seletivo.
