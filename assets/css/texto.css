@@ -1,0 +1,19 @@
+p {
+    margin-top: 14px;
+    margin-left: calc(436.31px - 99% );
+    text-align: center;
+    
+    
+
+}
+
+a {
+    color: #f9f9f9;
+    font-size: 14px;
+    text-decoration: underline;
+
+}
+a:hover{
+    cursor: pointer;
+    color:#bc4fff
+}

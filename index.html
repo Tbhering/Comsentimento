@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="./assets/css/bg.css" rel="stylesheet">
+    <link href="./assets/css/button.css" rel="stylesheet">
+    <link href="./assets/css/form.css" rel="stylesheet">
+    <link href="./assets/css/nav.css" rel="stylesheet">
+    <link href="./assets/css/texto.css" rel="stylesheet">
+
+    <title>Login</title>
+</head>
+
+<body class="body" id="body">
+    <header>
+        <nav>
+            <div class="nav">
+                <ul class="nav_pai">
+                    <li><a href="#">Login</a></li>
+                    <li><a href="./hotsite/nossa-historia.html">História do programa</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <img class="logo" id="logo" src="./assets/img/simbolo/comsentimento_simbolo-03.png">
+    <section class="container__section" id="container__section">
+        <main class="container__main" id="container__main">
+            <div class="div__inputs">
+                <form class="form__inputs">
+
+                    <input class="input" id="password" placeholder="Senha" type="password" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?!.*[ !@#$%^&*_=+-]).{6,12}$" title="A senha deve conter entre 6 a 12 caracteres, deve conter pelo menos uma letra maiúscula, um número e não deve conter símbolos." data-tipo="senha" required>
+                    <label for="password">Senha:</label>
+                    <span class="input-mensagem-erro">Este campo não está válido</span>
+
+                    <input class="input" id="email" placeholder="johndash@exemplo.com" type="email" data-tipo="email" required>
+                    <label for="email">E-mail:</label>
+                    <span class="input-mensagem-erro">Este campo não está válido</span>
+
+                </form>
+            </div>
+            <div class="form__checkbox">
+
+                <input id="s2" type="checkbox" class="switch" checked>
+                <label for="s2">Lembre de mim por 30 dias.</label>
+            </div>
+            <div class="form__btn">
+                <button class="btn" id="btn">Entrar</button>
+            </div>
+
+            <p><a href="nova__senha.html">Esqueceu sua senha?</a></p>
+            <p><a href="criar__login.html">Não possui conta? Crie Agora!</a></p>
+
+
+        </main>
+    </section>
+    <footer class="footer" id="footer">
+        <img class="rodape" id="rodape" src="./assets/img/horizontal/comsentimento_horizontal-05.png">
+    </footer>
+
+
+</body>
+
+</html>
